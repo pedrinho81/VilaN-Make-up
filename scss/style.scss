@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    font-family: 'Sansita Swashed', cursive;
+    color: black;
+}
+
+.navLinkL{
+    font-size: 130%;
+    color: black;
+    
+}
+.navLinkL:hover{
+    transition: 0.7s;
+        color: orange;
+}
+
+.container-geral{
+    min-height: 100vh;
+
+}
+.containerL {
+    background-image: url("/assets/img/fundoMain.jpeg");
+    
+    background-size: cover;
+    background-position: 0 -40%;
+}
+hr {
+    min-height: 5px;
+    width: 60%;
+    margin: 0 auto;
+}
+.nameL {
+    width: 40vw;
+    position: relative;
+    top: 15rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.308);
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    h1{
+        color: white;
+        font-size: 550%;
+    }
+    small{
+        color: #fffbfb;
+    }
+}
+@-webkit-keyframes ef-pulse-grow{to{-webkit-transform:scale(1.1);transform:scale(1.1)}}@keyframes ef-pulse-grow{to{-webkit-transform:scale(1.1);transform:scale(1.1)}}.ef-pulse-grow{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px transparent}.ef-pulse-grow:hover,.ef-pulse-grow:focus,.ef-pulse-grow:active{-webkit-animation-name:ef-pulse-grow;animation-name:ef-pulse-grow;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:linear;animation-timing-function:linear;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-direction:alternate;animation-direction:alternate}
+.linkL{
+    text-decoration: none;
+color: orange;
+-webkit-animation-name: ef-pulse-grow;
+animation-name: ef-pulse-grow;
+-webkit-animation-duration: 0.5s;
+animation-duration: 0.5s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
+
+}
+
+.linkL:hover {
+    opacity: 0.8;
+    color: black;
+
+}
+
+.colptf{
+    
+    background-size: cover;
+}
+
+.lari {
+
+    h5{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+      
+    
+}
+
+.ativo{
+    color: orange !important;
+}
+
+
+.orange-color {
+    
+        color: orange;
+}
+.appear{
+    width: 100%;
+    margin:0 auto;
+}
+
+.desappear {
+    margin: auto;
+}
+
+.containerptfl{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.item{
+    
+    width:25%;
+    height: 70%;
+   
+}
+
+.animation-hover{
+    transition: 0.3s;
+}
+
+.animation-hover:hover {
+        opacity: .8;
+        transform: scale(1.1);
+}
+
+.animation-hover-invert {
+    opacity: .8;
+    transition: 0.3s;
+}
+.animation-hover-invert:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+@media (max-width: 1024px) {
+
+.nameL {
+    width: 100%;
+    small{
+        
+        font-size: 80%;
+    }
+}
+
+.desappear {
+        display: none;
+}
+#img-phone{
+        width: 100%;
+}
+
+
+
+}
+
+.title {
+    margin: 1.3em 0;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1em;
+    font-size: 3.5em;
+    
+}
+
+.sub-title {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.line {
+    text-align: center;
+    width: 25%;
+    color: orange;
+    margin: 0 auto;
+    padding: 1.5px;
+}
+
+
+
+@media (max-width: 526px) {
+    .title{
+    
+    font-size: 200%;
+}
+
+    .colL {
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .card{
+        margin: 0 auto;
+        width: 85vw;
+    }
+    
+    .containerptfl{
+        flex-direction: column;
+    }
+    .item{
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+    
+    
+
+
+
+
